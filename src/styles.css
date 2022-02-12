@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+/* You can add global styles to this file, and also import other style files */
+body{
+    background: rgba(0, 0, 0, 0.918);
+    background-repeat: no-repeat;
+}
+.next{
+    color:rgb(160, 160, 160);
+}
+
+p.colorful {
+    white-space: nowrap; /* Запрещаем перенос строк */
+    overflow: hidden; /* Обрезаем все, что не помещается в область */
+    background: #efefef; /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+    text-overflow: ellipsis; /* Добавляем многоточие */
+    font-size: 24px;
+    margin: 10px;
+    display: block;
+    width: max-content
+   }
+   h1,h2.colorful {
+    white-space: nowrap; /* Запрещаем перенос строк */
+    overflow: hidden; /* Обрезаем все, что не помещается в область */
+    background: #efefef; /* Цвет фона */
+    padding: 3px; /* Поля вокруг текста */
+    text-overflow: ellipsis; /* Добавляем многоточие */
+    margin: 10px;
+    display: block;
+    width: max-content;
+    font-family: 'Oswald', sans-serif;
+   }
+   p.color {
+    white-space: nowrap; /* Запрещаем перенос строк */
+    overflow: hidden; /* Обрезаем все, что не помещается в область */
+    background: #efefef; /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+    text-overflow: ellipsis; /* Добавляем многоточие */
+    font-size: 18px;
+    margin: 10px;
+    display: block;
+    width: max-content
+   }

@@ -1,0 +1,102 @@
+.tittle{
+    line-height: 0.5;
+}
+p.colorful {
+    white-space: nowrap; /* Запрещаем перенос строк */
+    overflow: hidden; /* Обрезаем все, что не помещается в область */
+    background: #efefef; /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+    text-overflow: ellipsis; /* Добавляем многоточие */
+    font-size: 24px;
+    margin: 10px;
+    display: block;
+    width: max-content
+   }
+   h1,h2.colorful {
+    white-space: nowrap; /* Запрещаем перенос строк */
+    overflow: hidden; /* Обрезаем все, что не помещается в область */
+    background: #efefef; /* Цвет фона */
+    padding: 3px; /* Поля вокруг текста */
+    text-overflow: ellipsis; /* Добавляем многоточие */
+    margin: 10px;
+    display: block;
+    width: max-content
+   }
+   h1{
+    font-family: 'Oswald', sans-serif;
+   }
+   p.color {
+    white-space: nowrap; /* Запрещаем перенос строк */
+    overflow: hidden; /* Обрезаем все, что не помещается в область */
+    background: #efefef; /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+    text-overflow: ellipsis; /* Добавляем многоточие */
+    font-size: 18px;
+    margin: 10px;
+    display: block;
+    width: max-content
+   }
+   .container {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto
+}
+
+/* Darker chat container */
+.darker {
+    border-color: #ccc;
+    background-color: #ddd;
+}
+
+/* Clear floats */
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Style images */
+.container img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+/* Style the right image */
+.container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+}
+
+/* Style time text */
+.time-right {
+    float: right;
+    color: #aaa;
+}
+
+/* Style time text */
+.time-left {
+    float: left;
+    color: #999;
+}
+.s_c{
+    margin-top: 40px;
+    border-radius: 5px;
+}
+hr{
+    color: #999;
+    height: 2px;
+    background-color: #999;
+    border-color: #999;
+}
+.next {
+    background-color: rgba(0, 0, 0, 0.815);
+}

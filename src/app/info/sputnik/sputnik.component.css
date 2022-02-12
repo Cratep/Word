@@ -1,0 +1,34 @@
+p.colorful {
+    white-space: nowrap; /* Запрещаем перенос строк */
+    overflow: hidden; /* Обрезаем все, что не помещается в область */
+    background: #efefef; /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+    text-overflow: ellipsis; /* Добавляем многоточие */
+    font-size: 24px;
+    margin: 10px;
+    display: block;
+    width: max-content
+   }
+   h1,h2.colorful {
+    white-space: nowrap; /* Запрещаем перенос строк */
+    overflow: hidden; /* Обрезаем все, что не помещается в область */
+    background: #efefef; /* Цвет фона */
+    padding: 3px; /* Поля вокруг текста */
+    text-overflow: ellipsis; /* Добавляем многоточие */
+    margin: 10px;
+    display: block;
+    width: max-content;
+    font-family: 'Oswald', sans-serif;
+   }
+   p.color {
+    white-space: nowrap; /* Запрещаем перенос строк */
+    overflow: hidden; /* Обрезаем все, что не помещается в область */
+    background: #efefef; /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+    text-overflow: ellipsis; /* Добавляем многоточие */
+    font-size: 18px;
+    margin: 10px;
+    display: block;
+    width: max-content
+   }
+   
